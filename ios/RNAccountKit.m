@@ -157,6 +157,7 @@ RCT_EXPORT_METHOD(getCurrentAccount: (RCTPromiseResolveBlock)resolve
             }
         }
     }
+    theme.headerTextType = AKFHeaderTextTypeAppName;
     return theme;
 }
 
